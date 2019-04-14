@@ -1,0 +1,38 @@
+.resume-type {
+    width: 6em;
+    height: 6.5em;
+    border: 1px solid #ddd;
+    margin: 0 1em;
+    display: -webkit-inline-flex;
+    display: inline-flex;
+}
+button {
+    background: none;
+    border: initial;
+    font-weight: normal;
+    cursor: pointer;
+}
+.resume-type a, .resume-type button {
+    text-decoration: none;
+    color: #aaa;
+    font-size: 20px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    justify-content: center;    
+}
+.resume-type a:hover, .resume-type button:hover {
+    font-weight: bold;
+    background-color: #F8F8F8;
+}
+@media (max-width: 768px) {
+    .resume-type {
+        display: block;
+        width: 100%;
+        margin: 1em 0;    
+        height: 3.5em;    
+    }
+}

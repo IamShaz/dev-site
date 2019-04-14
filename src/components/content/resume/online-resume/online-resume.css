@@ -1,0 +1,184 @@
+.resume {
+    position: absolute;
+    background: #F8F8F8;
+    top: 0;
+    width: 68%;
+    box-shadow: -5px 5px 25px #eee;
+    padding: 0 1em 1em 1em;
+    height: 96%;
+    overflow-y: scroll; 
+    animation: fadeRes 1s ease-in-out;
+    -moz-animation: fadeRes 1s ease-in-out;
+    -webkit-animation: fadeRes 1s ease-in-out;
+    -ms-animation: fadeRes 1s ease-in-out;  
+}
+@keyframes fadeRes {
+    from {
+        opacity:0;
+        transform: scale(0.2);
+    }
+    to {
+        opacity:1;
+        transform: scale(1);
+    }
+}
+
+@-moz-keyframes fadeRes {
+    from {
+        opacity:0;
+        transform: scale(0.2);
+    }
+    to {
+        opacity:1;
+        transform: scale(1);
+    }
+}
+@-webkit-keyframes fadeRes {
+    from {
+        opacity:0;
+        transform: scale(0.2);
+    }
+    to {
+        opacity:1;
+        transform: scale(1);
+    }
+   }
+@-ms-keyframes fadeRes {
+    from {
+        opacity:0;
+        transform: scale(0.2);
+    }
+    to {
+        opacity:1;
+        transform: scale(1);
+    }
+}
+
+
+.no-wrap {
+    white-space: nowrap;
+}
+.skills {
+    margin-top: 2em;
+    width: 80%;
+    margin: 2em auto 0 auto;
+}
+.spacing {
+    width: 0.5em;
+}
+.info {
+    text-align: center;
+}
+.header h1, .summary h3, .skills h3, .career-history h3, .education h3 {
+    text-align: center;
+    font-weight: bold;
+}
+.close {
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 1;
+    background: #aaa;
+    color: #fff;
+    border: 2px solid #F8F8F8;
+}
+.close:hover {
+    color: #FFB6C1;
+}
+.info p {
+    display: inline-block;
+}
+.info a {
+    display: inline-block;
+    text-decoration: none;
+    color: #000;
+    text-transform: uppercase;
+    margin: 0 1em;
+    padding-bottom: 3px;
+    border-bottom: 2px solid transparent;
+}
+.info a:hover {
+    border-bottom: 2px solid #FFB6C1;
+    display: inline-block;
+    padding-bottom: 3px;
+}
+.summary {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 2em;
+    border-top: 1px solid #eee;
+    width: 80%;
+    display: block;
+}
+.skills div {
+    width: 33%;
+    display: inline-block;
+    vertical-align: text-top;
+}
+.skills h4 {
+    padding: 0.3em;
+}
+.skills ul {
+    margin-left: 1.5em;
+}
+.skills li {
+    list-style-type: circle;
+}
+.career-history {
+    text-align: center;
+    margin-top: 2em;
+}
+.career-history h3 {
+    margin-bottom: 1em;
+}
+.career-history .position, .jobs {
+    margin-top: 2em;
+}
+.career-history ul {
+    width: 70%;
+    display: block;
+    margin: auto;
+}
+.career-history li {
+    list-style-type: circle;
+    text-align: left;
+    padding-left: 0.5em;
+    margin: 0.3em 0;
+}
+.jobs .line {
+    margin-top: 1.5em;
+    display: block;
+}
+.education {
+    text-align: center;
+    margin-top: 3em;
+}
+.references {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-top: 3em;
+    padding-bottom: 1em;
+}
+@media (max-width: 768px) {
+    .resume {
+        top: 5em;
+        width: 85%;
+    }
+    .header h1 {
+        width: 100%;
+    }
+    .references {
+        margin-bottom: 4em;
+    }
+    .skills div {
+        display: block;
+        margin: auto;
+        width: 60%;
+    }
+    .skills h4 {
+        text-align: center;
+        margin-top: 1em;
+    }    
+}

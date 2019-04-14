@@ -1,0 +1,143 @@
+button, li {
+    outline: none;
+}
+.bottom-container {
+    width: 90%;
+    display: block;
+    margin: 5em auto 3em auto;
+}
+.side-bar {
+    float: left;
+    width: 25%;
+}
+.side-bar img {
+    width: 7em;
+    margin-top: 3em;
+}
+.side-bar nav {
+    border-left: 1px solid #eee;
+    padding-left: 2em;
+}
+nav ul li {
+    list-style-type: none;
+    margin-bottom: 0.5em;
+}
+nav ul li a, .bm-item a {
+    text-decoration: none;
+    font-size: 1.5em;
+    color: rgb(192, 192, 192);
+}
+nav ul li a:hover, .bm-item a:hover {
+    color: #aaa;
+    font-weight: bold;
+}
+.active {
+    color: #aaa;
+    font-weight: bold;
+}
+.home-icon {
+    font-size: 18px;
+    transition: all 0.5s;
+}
+.home-icon:hover, nav ul li a.active {
+    color: #FFB6C1;
+}
+.content-wrapper {
+    display: inline-block;
+    width: 60%;
+}
+h1 {
+    font-size: 4em;
+}
+h2 {
+    font-size: 2.5em;
+}
+canvas {
+    position: absolute;
+    top: 0;
+    width: 70% !important;
+    right: 0;
+}
+@media (min-width: 768px) and (max-width: 1200px) {
+    .media img {
+        width: 50%;
+    }
+}
+@media (min-width: 769px) {
+    .side-bar-mobile {
+        display: none;
+    }
+}
+@media (max-width: 768px) {
+    canvas {
+        width: 90% !important;
+    }    
+    .content-wrapper {
+        display: block;
+        width: 100%;
+        padding-top: 3.5em;
+    }
+    .side-bar {
+        display: none;
+    }
+    .bm-menu-wrap {
+        top: 0em;
+        right: 0 !important;
+        text-align: right;
+        padding: 1.7em 1.5em;
+        height: 8.5em !important;
+        width: 5.5em !important;
+        background-color: #fff;
+    }
+    .bm-burger-button button {
+        z-index: 2;
+    }
+    .bm-cross-button {
+        right: 0 !important;
+        top: 0 !important;
+    }
+    .bm-cross-button::before {
+        content: "\2716";
+        content: "\2716";
+        margin-right: 0.5em;
+        color: #aaa;
+    }
+    .bm-cross-button:hover::before {
+        color: #000;
+    }
+
+    .bm-burger-button {
+        position: fixed;
+        width: 36px;
+        height: 30px;
+        top: 10px;
+        right: 1em;
+      }
+    .bm-burger-bars:nth-child(1) {
+        background-color: #aaa;
+        width: 2.3em;
+        height: 2.3em !important;    
+    }
+    .bm-burger-bars:nth-child(2) {
+        background-color: lightpink;
+        width: 1.7em;
+        height: 1.7em !important;
+        position: absolute;
+        left: 0.3em !important;
+        top: 0.33em !important;           
+    }
+    .bm-burger-bars:nth-child(3) {
+        background-color: #eee;
+        width: 1.1em;
+        height: 1.1em !important;
+        position: absolute;
+        left: 0.6em !important;
+        top: 0.6em !important; 
+
+    }        
+      .bm-burger-bars {
+        border-radius: 20px;
+        position: absolute;
+        cursor: pointer;   
+   }
+}

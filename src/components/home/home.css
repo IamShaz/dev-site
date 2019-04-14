@@ -1,0 +1,13 @@
+.home-intro {
+    font-size: 5em;
+    text-align: right;
+}
+.bg-accent {
+    background-color: #eee;
+    cursor: pointer;
+}
+@media (max-width: 768px) {
+    .home-intro {
+        text-align: center;
+    }
+}

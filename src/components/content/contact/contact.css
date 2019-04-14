@@ -1,0 +1,42 @@
+.connect {
+    -webkit-display: flex;
+    -moz-display: flex;
+    -ms-display: flex;
+    display: flex;
+    position: relative;
+    top: 3.5em;
+}
+.connect div {
+    border-right: 1px solid rgb(192, 192, 192);
+}
+.connect div:last-child {
+    border-right: none;
+}
+.connect-icon {
+    font-size: 48px;
+    margin: 0 0.5em;
+    color: rgb(192, 192, 192);
+    fill: rgb(192, 192, 192);
+    transition: 0.5s all;
+}
+.connect-icon:hover {
+    color: #FFB6C1;
+    fill: #FFB6C1;
+}
+@media (max-width: 768px) {
+    .connect {
+        position: relative;
+        top: 3.5em;
+        text-align: center;
+        display: block;
+        margin: 1em 0;
+    }    
+    .connect div {
+        border-right: none;
+        border-bottom: 1px solid rgb(192, 192, 192);
+        margin: 1em auto;
+        padding-bottom: 1em;
+        width: 6em;
+        display: block;
+    }
+}

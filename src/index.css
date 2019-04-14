@@ -1,0 +1,54 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+body, a, li, p, button, div {
+  font-family: 'Exo 2', sans-serif;
+}
+h1 {
+	color: #aaa;
+}
+h2 {
+	color: rgb(192, 192, 192);
+}
+#root {
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+		top: 0;
+
+}
+h1::selection, h2::selection, h3::selection, h4::selection, p::selection, div::selection, li::selection, a::selection, span::selection, img::selection, button::selection, label::selection {
+		background: #FFB6C1;
+}
+::-webkit-scrollbar {
+	width: 5px;
+}
+
+::-webkit-scrollbar-track {
+	background: #f1f1f1; 
+}
+
+::-webkit-scrollbar-thumb {
+	background: #aaa; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background: #555; 
+}

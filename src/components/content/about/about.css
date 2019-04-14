@@ -1,0 +1,45 @@
+.about-content {
+    border: 1px solid #eee;
+    padding: 2em;
+}
+.text {
+    display: inline-block;
+    width: 65%;
+}
+p {
+    margin: 0.5em 0;
+}
+.media {
+    display: inline-block;
+    width: 35%;
+}
+.media img {
+    width: 100%;
+    margin-left: 1em;
+}
+@media (min-width: 769px) and (max-width: 1350px) {
+    .media, .text {
+        display: block;
+        width: 100%;
+    }
+    .media img {
+        width: 50%;
+        margin: auto;
+        display: block;
+    }    
+}
+@media (max-width: 768px) {
+    .about-content {
+        border: none;
+        padding: 0;
+    }
+    .media, .text {
+        display: block;
+        width: 100%;
+    }
+    .media img {
+        width: 65%;
+        margin: auto;
+        display: block;
+    }    
+}
