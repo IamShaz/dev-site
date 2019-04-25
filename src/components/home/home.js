@@ -1,7 +1,6 @@
 import React, { Component, Fragment } from 'react';
 import styles from './home.css';
 import SplitText from 'react-pose-text';
-import ReactDom from 'react-dom';
 
   const charPoses = {
     exit: { y: 20, opacity: 0 },

@@ -36,8 +36,6 @@ class OnlineResume extends Component {
             toggleResume,
         } = this.props;
 
-        // remove scrollbar on resume page
-        var showParticles = null;
         var particlesOn = window.location.href;
         if(particlesOn.match('resume')) {
             var root = document.getElementById('root');
@@ -54,9 +52,16 @@ class OnlineResume extends Component {
                     <button className="close" value="close" onClick={() => toggleResume()}>X</button>
                 </div>
                 <div className="info">
-                    <p><a href="tel:647-535-9276" target="_blank">(647) 535 - 9276</a></p>
-                    <p><a href="https://shaz.dev" target="_blank">shaz.dev</a></p>
-                    <p><a href="mailto:shazin.rr@gmail.com" target="_blank">shazin.rr@gmail.com</a></p>
+                    <div>
+                        <p><a href="tel:647-535-9276" target="_blank">(647) 535 - 9276</a></p>                    
+                        <p><a href="mailto:shazin.rr@gmail.com" target="_blank">shazin.rr@gmail.com</a></p>
+                    </div>
+                    <div>
+                        <p><a href="https://shaz.dev" target="_blank">shaz.dev</a></p>
+                        <p><a href="https://www.linkedin.com/in/shazinr/" target="_blank">linkedin.com/in/shazinr</a></p>
+                    </div>
+                    
+                    
                 </div>
                 <div className="summary">
                     <h3>Summary</h3>

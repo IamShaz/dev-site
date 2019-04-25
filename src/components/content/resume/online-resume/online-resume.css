@@ -87,6 +87,7 @@
 }
 .info p {
     display: inline-block;
+    margin: 0 0 0.3em 0;
 }
 .info a {
     display: inline-block;

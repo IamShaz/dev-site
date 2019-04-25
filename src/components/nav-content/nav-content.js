@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-import { findDOMNode } from 'react-dom';
-import { NavLink, Link, Route, Switch } from 'react-router-dom';
+import { NavLink, Route, Switch } from 'react-router-dom';
 import Home from '../home/home';
 import About from '../content/about/about';
 import Resume from '../content/resume/resume';
@@ -25,7 +24,7 @@ class NavContent extends Component {
         
         var showParticles = null;
         var particlesOn = window.location.href;
-        if(window.location.pathname == '/' || particlesOn.match('home')) {
+        if(window.location.pathname === '/' || particlesOn.match('home')) {
             showParticles = 
             <Particles
             params={{
