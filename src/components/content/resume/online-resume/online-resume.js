@@ -53,12 +53,12 @@ class OnlineResume extends Component {
                 </div>
                 <div className="info">
                     <div>
-                        <p><a href="tel:647-535-9276" target="_blank">(647) 535 - 9276</a></p>                    
-                        <p><a href="mailto:shazin.rr@gmail.com" target="_blank">shazin.rr@gmail.com</a></p>
+                        <p><a href="tel:647-535-9276" target="_blank" rel="noopener noreferrer">(647) 535 - 9276</a></p>                    
+                        <p><a href="mailto:shazin.rr@gmail.com" target="_blank" rel="noopener noreferrer">shazin.rr@gmail.com</a></p>
                     </div>
                     <div>
-                        <p><a href="https://shaz.dev" target="_blank">shaz.dev</a></p>
-                        <p><a href="https://www.linkedin.com/in/shazinr/" target="_blank">linkedin.com/in/shazinr</a></p>
+                        <p><a href="https://shaz.dev" target="_blank" rel="noopener noreferrer">shaz.dev</a></p>
+                        <p><a href="https://www.linkedin.com/in/shazinr/" target="_blank" rel="noopener noreferrer">linkedin.com/in/shazinr</a></p>
                     </div>
                     
                     
@@ -108,14 +108,14 @@ class OnlineResume extends Component {
                     <h3>Career History</h3>
                     <div>
                         <p>Bond Brand Loyalty ‐ Front End Developer & eLearning Specialist</p>
-                        <p>FEB 2017 – PRESENT</p>
+                        <p>FEB 2017 – APR 2019</p>
                         <ul>
                             <li>Develop interactive eLearning modules for Ford’s internal training campaigns on the SCORM platform using a proprietary framework, HTML5, CSS3, jQuery and Bootstrap</li>
                             <li>Design innovative mockups, create new screen layouts and source/edit images using Photoshop and Illustrator</li>
                             <li>Liaise with backend developers to build responsive websites with Umbraco and the ASP.NET MVC framework, using mockups provided on Zeplin, Invision or Photoshop</li>
-                            <li>Assist project managers in coordinating with the creative team and QA to ensure successful and timely delivery of multiple projects running simultaneously</li>
+                            <li>Coordinate with project managers, the creative team and QA to ensure successful and timely delivery of multiple projects running simultaneously</li>
                             <li>Troubleshoot and test for bugs, cross browser compatibility and web/mobile responsiveness</li>
-                            <li>Increased efficiency and decreased timelines by 25%, which resulted in decreased project budgets and higher revenue for the company</li>
+                            <li>Increased efficiency and decreased timelines by 25%, resulting in lower project budgets and higher profit</li>
                         </ul>                        
                     </div>
                     <div className="position">

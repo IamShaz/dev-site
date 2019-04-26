@@ -35,10 +35,10 @@ class Resume extends Component {
                         <button className="resume-btn" onClick={this.toggleResume}>ONLINE</button>                            
                     </DIV>
                     <DIV className="resume-type">
-                        <a href="\assets\resources\Resume-Shazin_Ramji.pdf" target="_blank">PDF</a>
+                        <a href="\assets\resources\Resume-Shazin_Ramji.pdf" target="_blank" rel="noopener noreferrer">PDF</a>
                     </DIV>
                     <DIV className="resume-type">
-                        <a href="\assets\resources\Resume-Shazin_Ramji.doc" target="_blank">DOC</a>
+                        <a href="\assets\resources\Resume-Shazin_Ramji.doc" target="_blank" rel="noopener noreferrer">DOC</a>
                     </DIV>
                 </Container>
               )
